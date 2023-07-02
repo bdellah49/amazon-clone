@@ -1,0 +1,9 @@
+.lang{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+}

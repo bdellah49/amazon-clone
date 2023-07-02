@@ -1,0 +1,28 @@
+.welcome {
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+.welcome>p{
+    font-size: 16px;
+    margin:0px;
+    padding:0px;
+}
+.welcome>h5{
+    margin:0px;
+    padding:0px;
+}
+.welcome-mobile {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+.welcome-mobile>p{
+    font-size: 16px;
+    margin:0px;
+    padding:0px;
+}

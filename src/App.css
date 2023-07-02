@@ -1,0 +1,14 @@
+.App{
+    width:100%;
+    padding : 0px 0px;
+}
+@media only screen and (max-width: 900px) {
+    .App {
+      width:fit-content;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .App {
+      width:100%;
+    }
+  }
