@@ -8,17 +8,23 @@
 .all{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
 }
 .Header > * > button{
+    width: max-content;
     color: white;
     font-size: 14px;
     background-color:transparent;
     padding:0px;
     margin:0px;
     height: 100%;
-    border: none;
+    border: 1.5px solid transparent;
 }
 .Header > * > button:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
+}
+@media screen and (max-width:1000px){
+    .history{
+        display: none
+    }
 }

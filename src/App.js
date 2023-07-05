@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header.js'
 import Body from "./components/Body.js"
+import Menu from "./components/Menu.js"
 
 
 const infos = {
@@ -19,8 +20,14 @@ const infos = {
 function App() {
   return (
     <div className="App">
-      <Header infos={infos}/>
-      <Body infos={infos}/>
+      <div className='menu'>
+        <Menu infos={infos}/>
+      </div>
+      <div className='content'>
+        <Header infos={infos}/>
+        <Body infos={infos}/>
+      </div>
+      
 
 
     </div>

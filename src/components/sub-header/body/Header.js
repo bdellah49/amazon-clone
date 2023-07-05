@@ -8,7 +8,7 @@ function Header({ infos }) {
       <div className="left">
         <button className="all">
           <HiMenu style={{fontSize:'18px'}}/>
-          <div>All</div>
+          <div style={{fontWeight:'bold'}}>All</div>
         </button>
         <button>Today's deals</button>
         <button>Buy Again</button>
@@ -17,7 +17,7 @@ function Header({ infos }) {
         <button>Gift Cards</button>
         <button>Sell</button>
         <button>Registry</button>
-        <button>Browsing History</button>
+        <button className="history">Browsing History</button>
       </div>
       <div className="right">
         <button>Shop great delas now</button>
