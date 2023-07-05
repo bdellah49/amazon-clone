@@ -6,7 +6,7 @@ function Header(props) {
     console.log(props.infos.infos)
   return (
     <div className="menu-header">
-        <BiUserCircle style={{fontSize:'28px',color:'white',margin:'0px',padding:'0px'}}/>
+        <BiUserCircle style={{fontSize:'22px',color:'white',margin:'0px',padding:'0px'}}/>
         Hello, {props.infos.infos.name}
     </div>
   )

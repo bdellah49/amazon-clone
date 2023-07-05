@@ -2,11 +2,12 @@ import React from "react";
 import "../styles/body.css";
 import { HiMenu } from "react-icons/hi";
 
-function Header({ infos }) {
+function Header({ infos ,visibility}) {
+  console.log(visibility);
   return (
     <div className="Header">
       <div className="left">
-        <button className="all">
+        <button className="all" onClick={visibility}>
           <HiMenu style={{fontSize:'18px'}}/>
           <div style={{fontWeight:'bold'}}>All</div>
         </button>

@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header.js'
 import Body from "./components/Body.js"
 import Menu from "./components/Menu.js"
+import { useState } from 'react';
 
 
 const infos = {
@@ -17,15 +18,22 @@ const infos = {
   cart:0
 }
 
+function showMenu(){
+  const menu = document.querySelector('.Menu');
+  menu.classList.toggle('show');
+  
+}
+
 function App() {
+  // const [menuState,setMenuState]=useState("")
   return (
     <div className="App">
       <div className='menu'>
-        <Menu infos={infos}/>
+        <Menu className='Menu' infos={infos} />
       </div>
       <div className='content'>
         <Header infos={infos}/>
-        <Body infos={infos}/>
+        <Body infos={infos} visibility={showMenu}/>
       </div>
       
 

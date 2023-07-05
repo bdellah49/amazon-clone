@@ -16,5 +16,11 @@
   display:flex;
 }  
 .Menu {
+  display:none;
   width: 350px;
+}
+.show{
+  display: block;
+  width: 350px;
+  
 }
