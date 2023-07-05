@@ -1,8 +1,7 @@
 import React from 'react'
-import './styles/cart.css'
+import '../styles/cart.css'
 
-import { BiCart } from "react-icons/bi";
-import { BsCart2 } from "react-icons/bs";
+import { BiCart } from "react-icons/bi"; 
 
 
 

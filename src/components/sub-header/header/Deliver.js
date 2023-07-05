@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
-import './styles/deliver.css'
+import '../styles/deliver.css'
 
 function Deliver({country}) {
   return (

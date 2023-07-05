@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/returns.css'
+import '../styles/returns.css'
 
 function Returns() {
   return (

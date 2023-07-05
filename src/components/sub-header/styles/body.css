@@ -1,0 +1,24 @@
+.Header{
+    display: flex;
+    height:40px;
+    padding:0px 10px;
+    justify-content: space-between;
+    background-color: #232f3e;
+} 
+.all{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.Header > * > button{
+    color: white;
+    font-size: 14px;
+    background-color:transparent;
+    padding:0px;
+    margin:0px;
+    height: 100%;
+    border: none;
+}
+.Header > * > button:hover{
+    border: 2px solid white;
+}

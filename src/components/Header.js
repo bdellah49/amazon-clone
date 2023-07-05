@@ -1,28 +1,18 @@
 import React from 'react'
 import './styles/header.css'
-import Deliver from './sub-header/Deliver.js'
+import Deliver from './sub-header/header/Deliver.js'
 import logo from './images/logo.png'
-import Search from './sub-header/Search.js'
-import Lang from './sub-header/Lang.js'
-import Welcome from './sub-header/Welcome.js'
-import Returns from './sub-header/Returns.js'
-import Cart from './sub-header/Cart.js'
+import Search from './sub-header/header/Search.js'
+import Lang from './sub-header/header/Lang.js'
+import Welcome from './sub-header/header/Welcome.js'
+import Returns from './sub-header/header/Returns.js'
+import Cart from './sub-header/header/Cart.js'
 
 
 
 
-const infos = {
-  Famillyname:'Beliacine',
-  name:'Abdellah',
-  Adress:{
-    country:'Algeria',
-    city:'El-eulma',
-    postal:'19600'
-  },
-  language:'EN',
-  cart:0
-}
-function Header() {
+ 
+function Header({infos}) {
   
   
   return (

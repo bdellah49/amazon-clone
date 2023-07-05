@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/search.css";
+import "../styles/search.css";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
