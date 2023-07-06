@@ -2,7 +2,6 @@ import './App.css';
 import Header from './components/Header.js'
 import Body from "./components/Body.js"
 import Menu from "./components/Menu.js"
-import { useState } from 'react';
 
 
 const infos = {
