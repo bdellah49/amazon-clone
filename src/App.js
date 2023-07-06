@@ -18,26 +18,22 @@ const infos = {
   cart:0
 }
 
-function showMenu(){
-  const menu = document.querySelector('.Menu');
-  menu.classList.toggle('show');
-  
+function showMenu() {
+  const menu = document.querySelector(".Menu");
+  menu.classList.toggle("show");
+  menu.classList.toggle("close");
 }
 
 function App() {
-  // const [menuState,setMenuState]=useState("")
   return (
     <div className="App">
-      <div className='menu'>
-        <Menu className='Menu' infos={infos} />
+      <div className="menu">
+        <Menu className="Menu" infos={infos} />
       </div>
-      <div className='content'>
-        <Header infos={infos}/>
-        <Body infos={infos} visibility={showMenu}/>
+      <div className="content">
+        <Header infos={infos} />
+        <Body infos={infos} visibility={showMenu} />
       </div>
-      
-
-
     </div>
   );
 }
